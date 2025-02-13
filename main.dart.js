@@ -57304,7 +57304,7 @@ o=r.a.c
 m=t.p
 o=A.b8(A.a([new A.OS(o.Q.c,!0,f),new A.OS(o.as.c,!1,f)],m),B.p,B.n,B.m)
 n=A.bN(A.a([new A.z8(B.Mb,"Distance",B.d.af(r.a.c.ax,1)+" km",f)],m),B.p,B.bN,B.m)
-p=A.bN(A.a([new A.z8(B.M2,"Fare","$"+B.d.af(r.a.c.ay.d,2),f)],m),B.p,B.bN,B.m)
+p=A.bN(A.a([new A.z8(B.M2,"Fare","\xa3"+B.d.af(r.a.c.ay.d,2),f)],m),B.p,B.bN,B.m)
 l=A.bN(A.a([new A.z8(B.lO,"Date",A.UD("EEE, dd MMM yyyy",f).or(r.a.c.db),f)],m),B.p,B.bN,B.m)
 r=A.bN(A.a([new A.z8(B.LD,"Time",A.UD("hh:mm a",f).or(r.a.c.db),f)],m),B.p,B.bN,B.m)
 k=s.c
@@ -58892,7 +58892,7 @@ j=r.y
 j=j==null?i:B.d.j(j)
 j=A.adg(j==null?"":j)
 j=j==null?i:B.d.af(j,2)
-B.b.Y(o,A.a([A.fQ(!1,i,!0,i,i,new A.aWp(q,b),n===r,i,m,i,k,i,i,l,A.P("$"+(j==null?"0.00":j),i,i,i,i,i,i,i),i)],p))}o.push(B.u)
+B.b.Y(o,A.a([A.fQ(!1,i,!0,i,i,new A.aWp(q,b),n===r,i,m,i,k,i,i,l,A.P("\xa3"+(j==null?"0.00":j),i,i,i,i,i,i,i),i)],p))}o.push(B.u)
 o.push(A.P("Alternative Vehicles",i,i,i,A.N(a).p2.r,i,i,i))
 o.push(B.u)
 r=this.a
@@ -58915,7 +58915,7 @@ l=A.P(p.b,q,q,q,q,q,q,q)
 s=A.P(p.c,q,q,q,q,q,q,q)
 r=A.adg(J.aa(p.y))
 r=r==null?q:B.d.af(r,2)
-return A.fQ(!1,q,!0,q,q,new A.aWm(o,p),n===p,q,m,q,s,q,q,l,A.P("$"+(r==null?"0.00":r),q,q,q,q,q,q,q),q)},
+return A.fQ(!1,q,!0,q,q,new A.aWm(o,p),n===p,q,m,q,s,q,q,l,A.P("\xa3"+(r==null?"0.00":r),q,q,q,q,q,q,q),q)},
 $S:312}
 A.aWm.prototype={
 $0(){var s=this.a
@@ -59633,11 +59633,11 @@ H(a){var s=null,r=A.b7(12),q=A.kt(B.ev,1),p=this.c,o=p.d,n=t.p
 return A.cI(s,new A.ai(B.a9,A.b8(A.a([A.P(p.b,s,B.av,s,A.N(a).p2.r,s,s,s),B.a_,A.P("Make: "+p.c,s,s,s,A.N(a).p2.z,s,s,s),B.nC,A.P("Category: "+o.b,s,s,s,A.N(a).p2.z,s,s,s),B.a_,A.P("Details:",s,s,s,A.N(a).p2.x,s,s,s),A.P("Type: "+o.c,s,s,s,A.N(a).p2.z,s,s,s),A.P("Capacity: "+o.d+" passengers",s,s,s,A.N(a).p2.z,s,s,s),A.P("Payload: "+A.f(o.e)+" kg",s,s,s,A.N(a).p2.z,s,s,s),B.dr,A.bN(A.a([A.eD(s,B.iU,B.B,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,this.e,s,s,s,s,s,s),B.bi,A.eD(s,B.iT,B.B,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,this.d,s,s,s,s,s,s)],n),B.p,B.dY,B.m)],n),B.T,B.n,B.m),s),B.q,s,new A.bY(B.j,s,q,r,s,s,s,B.Q),s,s,s,s,s,s,s)}}
 A.Dm.prototype={
 H(a7){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=null,e="Extra Small:",d="Medium +:",c=A.b7(12),b=A.kt(B.ev,1),a=this.c,a0=A.P(a.b,f,B.av,f,A.N(a7).p2.r,f,f,f),a1=t.p,a2=A.a([A.P("Type:",f,f,f,B.aP,f,f,f),A.P(a.c,f,f,f,f,f,f,f)],a1),a3=A.a([A.P("Capacity:",f,f,f,B.aP,f,f,f),A.P(""+a.d+" passengers",f,f,f,f,f,f,f)],a1),a4=A.a([A.P("Payload:",f,f,f,B.aP,f,f,f),A.P(A.f(a.e)+" kg",f,f,f,f,f,f,f)],a1),a5=A.a([A.P("Volume:",f,f,f,B.aP,f,f,f),A.P(A.f(a.f)+" m\xb3",f,f,f,f,f,f,f)],a1),a6=B.d.af(a.r,2)
-a6=A.a([A.P("Base Fare:",f,f,f,B.aP,f,f,f),A.P("$"+a6,f,f,f,f,f,f,f)],a1)
+a6=A.a([A.P("Base Fare:",f,f,f,B.aP,f,f,f),A.P("\xa3"+a6,f,f,f,f,f,f,f)],a1)
 s=B.d.af(a.w,2)
-s=A.a([A.P("Time Fare:",f,f,f,B.aP,f,f,f),A.P("$"+s+"/min",f,f,f,f,f,f,f)],a1)
+s=A.a([A.P("Time Fare:",f,f,f,B.aP,f,f,f),A.P("\xa3"+s+"/min",f,f,f,f,f,f,f)],a1)
 r=B.d.af(a.x,2)
-r=A.a([A.P("Distance Fare:",f,f,f,B.aP,f,f,f),A.P("$"+r+"/km",f,f,f,f,f,f,f)],a1)
+r=A.a([A.P("Distance Fare:",f,f,f,B.aP,f,f,f),A.P("\xa3"+r+"/km",f,f,f,f,f,f,f)],a1)
 q=A.a([A.P("Size-based Items Capacity:",f,f,f,A.N(a7).p2.x,f,f,f),B.a5],a1)
 p=a.as
 o=A.a([A.P(e,f,f,f,B.aP,f,f,f),A.P(A.f(p.a),f,f,f,f,f,f,f)],a1)
@@ -59648,15 +59648,15 @@ p=A.a([A.P("Large:",f,f,f,B.aP,f,f,f),A.P(A.f(p.e),f,f,f,f,f,f,f)],a1)
 k=A.a([A.P("Size-based Items Price:",f,f,f,A.N(a7).p2.x,f,f,f),B.a5],a1)
 a=a.at
 j=B.d.af(a.a,2)
-j=A.a([A.P(e,f,f,f,B.aP,f,f,f),A.P("$"+j,f,f,f,f,f,f,f)],a1)
+j=A.a([A.P(e,f,f,f,B.aP,f,f,f),A.P("\xa3"+j,f,f,f,f,f,f,f)],a1)
 i=B.d.af(a.b,2)
-i=A.a([A.P("Small:",f,f,f,B.aP,f,f,f),A.P("$"+i,f,f,f,f,f,f,f)],a1)
+i=A.a([A.P("Small:",f,f,f,B.aP,f,f,f),A.P("\xa3"+i,f,f,f,f,f,f,f)],a1)
 h=B.d.af(a.c,2)
-h=A.a([A.P("Medium:",f,f,f,B.aP,f,f,f),A.P("$"+h,f,f,f,f,f,f,f)],a1)
+h=A.a([A.P("Medium:",f,f,f,B.aP,f,f,f),A.P("\xa3"+h,f,f,f,f,f,f,f)],a1)
 g=B.d.af(a.d,2)
-g=A.a([A.P(d,f,f,f,B.aP,f,f,f),A.P("$"+g,f,f,f,f,f,f,f)],a1)
+g=A.a([A.P(d,f,f,f,B.aP,f,f,f),A.P("\xa3"+g,f,f,f,f,f,f,f)],a1)
 a=B.d.af(a.e,2)
-return A.cI(f,new A.ai(B.a9,A.b8(A.a([a0,B.a6,A.bmt(A.a([new A.e0(a2),new A.e0(a3),new A.e0(a4),new A.e0(a5),B.nI,new A.e0(a6),new A.e0(s),new A.e0(r),B.nI,new A.e0(q),new A.e0(o),new A.e0(n),new A.e0(m),new A.e0(l),new A.e0(p),B.nI,new A.e0(k),new A.e0(j),new A.e0(i),new A.e0(h),new A.e0(g),new A.e0(A.a([A.P("Large:",f,f,f,B.aP,f,f,f),A.P("$"+a,f,f,f,f,f,f,f)],a1))],t.nk),B.RT,B.CW),B.a6,A.bN(A.a([A.eD(f,B.iU,B.B,!1,f,f,f,f,f,f,f,f,f,f,f,f,f,this.d,f,f,f,f,f,f),B.bi,A.eD(f,B.iT,B.B,!1,f,f,f,f,f,f,f,f,f,f,f,f,f,this.e,f,f,f,f,f,f)],a1),B.p,B.dY,B.m)],a1),B.T,B.n,B.m),f),B.q,f,new A.bY(B.j,f,b,c,f,f,f,B.Q),f,f,f,f,f,f,f)}}
+return A.cI(f,new A.ai(B.a9,A.b8(A.a([a0,B.a6,A.bmt(A.a([new A.e0(a2),new A.e0(a3),new A.e0(a4),new A.e0(a5),B.nI,new A.e0(a6),new A.e0(s),new A.e0(r),B.nI,new A.e0(q),new A.e0(o),new A.e0(n),new A.e0(m),new A.e0(l),new A.e0(p),B.nI,new A.e0(k),new A.e0(j),new A.e0(i),new A.e0(h),new A.e0(g),new A.e0(A.a([A.P("Large:",f,f,f,B.aP,f,f,f),A.P("\xa3"+a,f,f,f,f,f,f,f)],a1))],t.nk),B.RT,B.CW),B.a6,A.bN(A.a([A.eD(f,B.iU,B.B,!1,f,f,f,f,f,f,f,f,f,f,f,f,f,this.d,f,f,f,f,f,f),B.bi,A.eD(f,B.iT,B.B,!1,f,f,f,f,f,f,f,f,f,f,f,f,f,this.e,f,f,f,f,f,f)],a1),B.p,B.dY,B.m)],a1),B.T,B.n,B.m),f),B.q,f,new A.bY(B.j,f,b,c,f,f,f,B.Q),f,f,f,f,f,f,f)}}
 A.Gi.prototype={}
 A.TU.prototype={
 d0(a,b){var s,r=this
